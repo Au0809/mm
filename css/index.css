@@ -1,0 +1,184 @@
+body {
+  min-width: 8.5333rem;
+  max-width: 20rem;
+  margin: 0 auto;
+  background-color: #F2F4F7;
+}
+@media screen and (min-wi9dth: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 2.1333rem;
+  line-height: 2.1333rem;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 0.9333rem;
+  color: #1C1C1C;
+}
+.wrap {
+  background-color: #fff;
+  padding-bottom: 1.1467rem;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.1733rem;
+}
+.nav .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 6.4533rem;
+  flex: 33.33%;
+  color: #707070;
+  font-size: 0.6667rem;
+}
+.nav .item [class^="nav-item-icon"] {
+  width: 3.7067rem;
+  height: 3.7067rem;
+  background: url(../icons/icon1.png);
+  background-size: 3.7067rem;
+}
+.nav .item .nav-item-icon2 {
+  background-image: url(../icons/icon2.png);
+}
+.nav .item .nav-item-icon3 {
+  background-image: url(../icons/icon3.png);
+}
+.nav .item .nav-item-icon4 {
+  background-image: url(../icons/icon4.png);
+}
+.nav .item .nav-item-icon5 {
+  background-image: url(../icons/icon5.png);
+}
+.nav .item .nav-item-icon6 {
+  background-image: url(../icons/icon6.png);
+}
+.go-practice {
+  width: 19.2533rem;
+  height: 4.0533rem;
+  margin: 0 auto;
+  background: url(../images/go.png);
+  background-size: 19.2533rem;
+}
+.content {
+  margin-top: 0.2667rem;
+  padding: 1.0667rem 0.64rem;
+  background-color: #fff;
+}
+.content .content-hd {
+  height: 1.0133rem;
+  line-height: 1.0133rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.9067rem;
+}
+.content .content-hd h4 {
+  margin: 0;
+  font-size: 0.7467rem;
+  color: #333333;
+}
+.content .content-hd h4 .content-icon {
+  display: inline-block;
+  width: 1.0133rem;
+  height: 1.0133rem;
+  vertical-align: text-bottom;
+}
+.content .content-hd a {
+  font-size: 0.5867rem;
+  color: #999999;
+}
+.get-job-focus {
+  position: relative;
+}
+.get-job-focus .swiper {
+  width: 14.4rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.get-job-focus .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 9.0133rem;
+  height: 10.0267rem;
+}
+.get-job-focus .swiper-slide p {
+  width: 9.0133rem;
+  text-align: center;
+  font-size: 0.6667rem;
+  color: #333;
+  line-height: 1.0667rem;
+  margin-top: 0.64rem;
+}
+.get-job-focus .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.study-foo {
+  padding-bottom: 0.9333rem;
+}
+.study .study-fo {
+  padding: 0.2667rem;
+}
+.study .swiper {
+  width: 100%;
+  height: 100%;
+}
+.study .swiper-slide {
+  width: 7.2533rem !important;
+  height: 9.0667rem !important;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.2667rem;
+}
+.study .swiper-slide > span {
+  display: block;
+  width: 7.2533rem;
+  height: 4.56rem;
+}
+.study .swiper-slide p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 0.5333rem 0;
+}
+.study .swiper-slide h5 {
+  font-weight: 400;
+  font-size: 0.6933rem;
+  text-align: left;
+  color: #999999;
+}
+.study .swiper-slide h5 span {
+  color: #FF4400;
+}
+.footer {
+  border-top: 1px solid #E2E2E2;
+  width: 100%;
+  height: 2.9333rem;
+  display: flex;
+  background-color: #fff;
+}
+.footer a {
+  font-size: 0.5867rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.5067rem;
+}
+.footer a img {
+  width: 1.04rem;
+  height: 1.0933rem;
+}
+.footer a span {
+  margin-top: 0.2933rem;
+  color: #52C4F0;
+}
+.footer a:nth-child(n+2) span {
+  color: #666;
+}
